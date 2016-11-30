@@ -1,0 +1,22 @@
+{
+  "name": "payments",
+  "version": "1.0.0",
+  "description": "handle payments for dc",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/debtcollective/payments.git"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/debtcollective/payments/issues"
+  },
+  "homepage": "https://github.com/debtcollective/payments#readme",
+  "dependencies": {
+    "stripe": "^4.13.0"
+  }
+}
