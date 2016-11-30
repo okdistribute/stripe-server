@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "http microservice for handling payments for stripe",
   "main": "index.js",
+  "bin": {
+    "stripe-server": "index.js"
+  },
   "scripts": {
     "test": "node test.js"
   },
