@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var minimist = require('minimist')
 var Stripe = require('stripe')
 var Server = require('./server')
