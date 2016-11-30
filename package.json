@@ -17,6 +17,12 @@
   },
   "homepage": "https://github.com/debtcollective/payments#readme",
   "dependencies": {
-    "stripe": "^4.13.0"
+    "body-parser": "^1.15.2",
+    "finalhandler": "^0.5.1",
+    "minimist": "^1.2.0",
+    "needle": "^1.4.2",
+    "router": "^1.1.4",
+    "stripe": "^4.13.0",
+    "tape": "^4.6.3"
   }
 }
