@@ -1,6 +1,6 @@
 {
   "name": "stripe-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "http microservice for handling payments for stripe",
   "main": "index.js",
   "bin": {
@@ -13,8 +13,15 @@
     "type": "git",
     "url": "git+https://github.com/karissa/stripe-server.git"
   },
-  "keywords": ["stripe", "microservice", "payments", "server", "http",
-"charge", "REST"],
+  "keywords": [
+    "stripe",
+    "microservice",
+    "payments",
+    "server",
+    "http",
+    "charge",
+    "REST"
+  ],
   "author": "Karissa McKelvey <karissa@gmail.com>",
   "license": "GPL-3.0",
   "bugs": {
