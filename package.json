@@ -1,5 +1,5 @@
 {
-  "name": "payments",
+  "name": "stripe-server",
   "version": "1.0.0",
   "description": "http microservice for handling payments for stripe",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/debtcollective/payments.git"
+    "url": "git+https://github.com/karissa/stripe-server.git"
   },
   "author": "Karissa McKelvey <karissa@gmail.com>",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/debtcollective/payments/issues"
+    "url": "https://github.com/karissa/stripe-server/issues"
   },
-  "homepage": "https://github.com/debtcollective/payments#readme",
+  "homepage": "https://github.com/karissa/stripe-server#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
     "finalhandler": "^0.5.1",

@@ -1,4 +1,4 @@
-# payments
+# stripe-server
 
 Microservice that handles stripe payments. Right now, only works with the 'charge' option.
 
