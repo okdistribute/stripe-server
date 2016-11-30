@@ -1,6 +1,6 @@
 # payments
 
-Handles payments for debtcollective.org. Right now, only one donate option.
+Microservice that handles stripe payments. Right now, only works with the 'charge' option.
 
 ## API
 

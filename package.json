@@ -1,7 +1,7 @@
 {
   "name": "payments",
   "version": "1.0.0",
-  "description": "handle payments for dc",
+  "description": "http microservice for handling payments for stripe",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/debtcollective/payments.git"
   },
-  "author": "",
+  "author": "Karissa McKelvey <karissa@gmail.com>",
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/debtcollective/payments/issues"
