@@ -15,9 +15,7 @@ module.exports = function (stripe) {
     assert(typeof req.body.currency === 'string', 'currency is a string')
     assert(typeof req.body.source === 'string', 'source is a string')
 
-    stripe.charges.create({
-      amount: req.body.amount
-    }, function (err, resp) {
+    stripe.charges.create(req.body, function (err, resp) {
       res.setHeader('Content-Type', 'application/json')
       res.end(JSON.stringify(resp))
     })
